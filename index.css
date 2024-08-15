@@ -1,0 +1,32 @@
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: underline;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+form{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+input{
+    border: none;
+    outline: none;
+}
+.end{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
